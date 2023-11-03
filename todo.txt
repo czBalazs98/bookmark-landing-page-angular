@@ -1,0 +1,19 @@
+BOOKMARK LANDING PAGE TODO:
+	1.) app létrehozása
+	2.) challange assets hozzáadása projekthez
+	3.) TailwindCSS inicializálás
+	4.) cím átírás, favicon módosítás
+	5.) alap layout komponensek és stílusok (színek felvétele, alap elrendezés beállítása)
+	6.) header komponens
+	7.) footer komponens
+	8.) bemutatkozó komponens
+	9.) features komponens
+		- Simple Bookmarking tab
+		- Speedy Searching tab
+		- Easy Sharing tab
+	10.) download komponens
+	11.) faq komponens
+	12.) hírlevél komponens
+	
+Általánosan minden komponensnél arra kell törekednem, hogy responsive legyen, és ne kelljen visszatérni erre a későbbiekben.
+	
