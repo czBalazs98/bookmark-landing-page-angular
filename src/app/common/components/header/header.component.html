@@ -1,9 +1,9 @@
-<div class="flex px-12 py-6">
+<div *ngIf="!isNavOpened" class="flex items-center px-12 py-6">
     <div class="flex-grow">
         <img src="../../../../assets/images/logo-bookmark.svg" alt="Bookmark logo">
     </div>
 
-    <div class="space-x-10">
+    <div *ngIf="!isMobile()" class="space-x-10">
         <a href="#">FEATURES</a>
 
         <a href="#">PRICING</a>
@@ -12,4 +12,7 @@
 
         <button class="soft-red-button px-8 py-2 rounded-md">LOGIN</button>
     </div>
+
+    <button *ngIf="isMobile()" (click)="openNav()"><img src="../../../../assets/images/icon-hamburger.svg"></button>
 </div>
+<app-mobile-nav *ngIf="isNavOpened" (closeNavEvent)="openNav()"></app-mobile-nav>

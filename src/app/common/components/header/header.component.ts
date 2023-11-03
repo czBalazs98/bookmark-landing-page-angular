@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  isNavOpened: boolean = false;
+
+  isMobile(): boolean {
+    return window.screen.width < 640;
+  }
+
+  openNav() {
+    this.isNavOpened = !this.isNavOpened;
+  }
 }
