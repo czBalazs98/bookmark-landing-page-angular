@@ -13,6 +13,7 @@ body {
   height: 100vh;
   margin: 0;
   font-family: Rubik;
+  color: $very-dark-blue;
 }
 
 .soft-red-button {
@@ -36,4 +37,28 @@ a:hover {
 
 .mobile-nav {
   background-color: hsla(229, 31%, 21%, 0.9);
+}
+
+.soft-blue-button {
+  background-color: $soft-blue;
+  color: white;
+}
+
+.soft-blue-button:hover {
+  background-color: white;
+  color: $soft-blue;
+  outline: 2px solid $soft-blue;
+}
+
+.gray-button {
+  background-color: $gray;
+}
+
+.gray-button:hover {
+  background-color: white;
+  outline: 2px solid $very-dark-blue;
+}
+
+.text-grayish-blue {
+  color: $grayish-blue;
 }
