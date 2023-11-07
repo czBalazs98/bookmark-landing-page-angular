@@ -10,7 +10,7 @@ export class HeaderComponent {
   isNavOpened: boolean = false;
 
   isMobile(): boolean {
-    return window.screen.width < 640;
+    return window.screen.width < 1024;
   }
 
   openNav() {

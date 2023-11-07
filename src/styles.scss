@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "primeng/resources/themes/md-light-indigo/theme.css";
+@import "primeng/resources/primeng.css";
+
 @import "colors.scss";
 
 @font-face {
@@ -14,6 +17,50 @@ body {
   margin: 0;
   font-family: Rubik;
   color: $very-dark-blue;
+}
+
+.p-tabview-panels {
+  padding: 0;
+}
+
+a[aria-selected="true"].p-tabview-nav-link {
+  border-bottom: 2px solid $soft-red;
+}
+
+a.p-tabview-nav-link {
+  border-bottom: 1px solid $grayish-blue;
+}
+
+.p-tabview-nav-link {
+  background: none;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.p-tabview-selected {
+  border-bottom: 2px solid $soft-red;
+}
+
+.p-tabview-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 640px) {
+  .p-tabview-nav-link {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .p-tabview-nav {
+    flex-direction: row;
+  }
+}
+
+.p-tabview-ink-bar {
+  background-color: transparent;
 }
 
 .soft-red-button {

@@ -4,7 +4,7 @@
   &::before {
     position: absolute;
     content: "";
-    top: clamp(4rem, 25%, 7rem);
+    top: clamp(4rem, 25%, 9rem);
     background-color: $soft-blue;
     border-radius: 6rem 0 0 6rem;
     z-index: -1;
