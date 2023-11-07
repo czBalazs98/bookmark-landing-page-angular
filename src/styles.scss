@@ -66,3 +66,15 @@ a:hover {
 .bg-very-dark-blue {
   background-color: $very-dark-blue;
 }
+
+.bg-soft-blue {
+  background-color: $soft-blue;
+}
+
+.bg-soft-red {
+  background-color: $soft-red;
+}
+
+.invalid-field {
+  outline: 2px solid $soft-red;
+}
