@@ -6,6 +6,8 @@ import { HeaderComponent } from './common/components/header/header.component';
 import { MobileNavComponent } from './common/components/mobile-nav/mobile-nav.component';
 import { WelcomeComponent } from './bookmark/components/welcome/welcome.component';
 import { BookmarkViewComponent } from './bookmark/components/bookmark-view/bookmark-view.component';
+import { FeaturesComponent } from './bookmark/components/features/features.component';
+import { FooterComponent } from './common/components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { BookmarkViewComponent } from './bookmark/components/bookmark-view/bookm
     HeaderComponent,
     MobileNavComponent,
     WelcomeComponent,
-    BookmarkViewComponent
+    BookmarkViewComponent,
+    FeaturesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule

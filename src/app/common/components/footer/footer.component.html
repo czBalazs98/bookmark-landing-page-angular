@@ -1,0 +1,30 @@
+<div
+  class="flex flex-col justify-between px-12 py-8 space-y-5 text-white sm:space-y-0 sm:flex-row sm:px-24 bg-very-dark-blue"
+>
+  <div class="flex flex-col items-center space-y-5 sm:space-y-0 sm:space-x-10 sm:flex-row">
+    <img
+      src="../../../../assets/images/logo-bookmark-white-text.svg"
+      alt="Bookmark logo"
+    />
+    <a href="#">FEATURES</a>
+    <a href="#">PRICING</a>
+    <a href="#">CONTACT</a>
+  </div>
+
+  <div class="flex justify-center space-x-10">
+    <img
+      class="cursor-pointer"
+      [src]="facebookImgSrc"
+      alt="Facebook icon"
+      (mouseover)="handleFacebookIconHover(true)"
+      (mouseleave)="handleFacebookIconHover(false)"
+    />
+    <img
+      class="cursor-pointer"
+      [src]="twitterImgSrc"
+      alt="Twitter icon"
+      (mouseover)="handleTwitterIconHover(true)"
+      (mouseleave)="handleTwitterIconHover(false)"
+    />
+  </div>
+</div>

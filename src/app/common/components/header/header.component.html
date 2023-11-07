@@ -1,18 +1,26 @@
-<div class="flex items-center px-12 py-6 sm:px-24 v">
-    <div class="flex-grow">
-        <img src="../../../../assets/images/logo-bookmark.svg" alt="Bookmark logo">
-    </div>
+<div class="flex items-center px-12 py-6 bg-white z sm:px-24">
+  <div class="flex-grow">
+    <img
+      src="../../../../assets/images/logo-bookmark.svg"
+      alt="Bookmark logo"
+    />
+  </div>
 
-    <div *ngIf="!isMobile()" class="space-x-10">
-        <a href="#">FEATURES</a>
+  <div *ngIf="!isMobile()" class="space-x-10">
+    <a href="#">FEATURES</a>
 
-        <a href="#">PRICING</a>
+    <a href="#">PRICING</a>
 
-        <a href="#">CONTACT</a>
+    <a href="#">CONTACT</a>
 
-        <button class="px-8 py-2 rounded-md soft-red-button">LOGIN</button>
-    </div>
+    <button class="px-8 py-2 rounded-md soft-red-button">LOGIN</button>
+  </div>
 
-    <button *ngIf="isMobile()" (click)="openNav()"><img src="../../../../assets/images/icon-hamburger.svg"></button>
+  <button *ngIf="isMobile()" (click)="openNav()">
+    <img src="../../../../assets/images/icon-hamburger.svg" />
+  </button>
 </div>
-<app-mobile-nav *ngIf="isNavOpened" (closeNavEvent)="openNav()"></app-mobile-nav>
+<app-mobile-nav
+  *ngIf="isNavOpened"
+  (closeNavEvent)="openNav()"
+></app-mobile-nav>
