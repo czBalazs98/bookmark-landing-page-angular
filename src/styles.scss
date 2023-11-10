@@ -19,6 +19,10 @@ body {
   color: $very-dark-blue;
 }
 
+body.mobile-nav-opened {
+  overflow: hidden;
+}
+
 .p-tabview-panels {
   padding: 0;
 }

@@ -13,6 +13,8 @@ import { FeaturesComponent } from './bookmark/components/tabs/features/features.
 import { FooterComponent } from './common/components/footer/footer.component';
 import { NewsletterComponent } from './bookmark/components/newsletter/newsletter.component';
 import { FeatureTabComponent } from './bookmark/components/tabs/feature-tab/feature-tab.component';
+import { ExtensionCardComponent } from './bookmark/components/extension/extension-card/extension-card.component';
+import { ExtensionsComponent } from './bookmark/components/extension/extensions/extensions.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { FeatureTabComponent } from './bookmark/components/tabs/feature-tab/feat
     FeaturesComponent,
     FooterComponent,
     NewsletterComponent,
-    FeatureTabComponent
+    FeatureTabComponent,
+    ExtensionCardComponent,
+    ExtensionsComponent
   ],
   imports: [
     BrowserModule,

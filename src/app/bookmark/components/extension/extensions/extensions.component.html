@@ -1,0 +1,31 @@
+<div class="p-12">
+  <div class="mx-auto mb-10 text-center lg:w-1/3">
+    <p class="mb-3 text-2xl font-medium">Download the extension</p>
+    <p class="text-grayish-blue">
+      We've got more browsers in the pipeline. Please do let us know if you've
+      got a favourite you'd like us to prioritize.
+    </p>
+  </div>
+
+  <div class="flex flex-col justify-center sm:space-x-10 sm:flex-row">
+    <app-extension-card
+      logoSrc="../../../../../assets/images/logo-chrome.svg"
+      browserName="Chrome"
+      minVersion="62"
+    ></app-extension-card>
+
+    <app-extension-card
+      class="sm:mt-10"
+      logoSrc="../../../../../assets/images/logo-firefox.svg"
+      browserName="Firefox"
+      minVersion="55"
+    ></app-extension-card>
+
+    <app-extension-card
+      class="sm:mt-20"
+      logoSrc="../../../../../assets/images/logo-opera.svg"
+      browserName="Opera"
+      minVersion="46"
+    ></app-extension-card>
+  </div>
+</div>

@@ -15,5 +15,6 @@ export class HeaderComponent {
 
   openNav() {
     this.isNavOpened = !this.isNavOpened;
+    document.body.classList.toggle('mobile-nav-opened');
   }
 }
